@@ -1,7 +1,7 @@
 {
-  "name": "light",
-  "displayName": "Cheese",
-  "description": "Cheesy theme for cheese enjoyers",
+  "name": "Cheese",
+  "displayName": "TrexGamerGirl's themes",
+  "description": "My theme collection",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.109.0"
@@ -15,6 +15,11 @@
         "label": "Cheese Theme",
         "uiTheme": "vs",
         "path": "./themes/Cheese Theme-color-theme.json"
+      },
+      {
+        "label": "Hybrid Theory",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Hybrid Theory-color-theme.json"
       }
     ]
   }

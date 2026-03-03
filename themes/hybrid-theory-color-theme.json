@@ -1,0 +1,95 @@
+{
+	"name": "Hybrid Theory",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#1B1E23",
+		"editor.foreground": "#D1D5DB",
+		"editor.lineHighlightBackground": "#242933",
+		"editorCursor.foreground": "#0A3D62",
+
+		"activityBar.background": "#14171B",
+		"sideBar.background": "#181C20",
+		"statusBar.background": "#0A3D62",
+		"statusBar.foreground": "#FFFFFF",
+
+		"editor.selectionBackground": "#0A3D6244",
+		"editorBracketMatch.background": "#8B1E2D33",
+		"editorIndentGuide.background": "#2C313A"
+	},
+
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": ["comment"],
+			"settings": {
+				"foreground": "#6B7280",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": ["keyword", "storage"],
+			"settings": {
+				"foreground": "#0A3D62"
+			}
+		},
+		{
+			"name": "Types",
+			"scope": ["storage.type", "support.type"],
+			"settings": {
+				"foreground": "#8B1E2D"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": ["variable"],
+			"settings": {
+				"foreground": "#D1D5DB"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": ["entity.name.function", "support.function"],
+			"settings": {
+				"foreground": "#B34700",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Classes",
+			"scope": ["entity.name.type", "support.class"],
+			"settings": {
+				"foreground": "#0A3D62",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": ["constant.numeric"],
+			"settings": {
+				"foreground": "#B34700"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"settings": {
+				"foreground": "#8B1E2D"
+			}
+		},
+		{
+			"name": "Operators & Punctuation",
+			"scope": ["keyword.operator", "punctuation"],
+			"settings": {
+				"foreground": "#9CA3AF"
+			}
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid.illegal",
+			"settings": {
+				"foreground": "#FF4C4C"
+			}
+		}
+	]
+}
