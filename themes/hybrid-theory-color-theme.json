@@ -14,7 +14,7 @@
 
 		"editor.selectionBackground": "#0A3D6244",
 		"editorBracketMatch.background": "#8B1E2D33",
-		"editorIndentGuide.background": "#2C313A"
+		"editorIndentGuide.background1": "#2C313A"
 	},
 
 	"tokenColors": [
